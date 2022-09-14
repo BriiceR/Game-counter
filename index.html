@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="page">
+        <div class="card">      <!-- carte guerrier-->
+            <div class="cardTop">
+              <div class="imgG">
+                <img class="imgHero" src="guerrier1.png"/>
+              </div>
+              <h1>Guerrier</h1>
+              <h3>Épée et Bouclier </h3>
+              <p>Niv. <span id="nivG">1</span></p>
+              <div class="live">
+                <img class="heart" src="pixel-heart.png"/>
+                <select name="lives" id="live-select">
+                  <option value="">10</option>
+                  <option value="9">9</option>
+                  <option value="8">8</option>
+                  <option value="7">7</option>
+                  <option value="6">6</option>
+                  <option value="5">5</option>
+                  <option value="4">4</option>
+                  <option value="3">3</option>
+                  <option value="2">2</option>
+                  <option value="1">1</option>
+                  <option value="0">0</option>
+                </select>
+              </div>
+            </div>
+            <div class="progress">
+                <div class="progress-barG"></div>
+            </div>
+            <div class="cardBottom">
+              <div id="mainDiv">
+                <span>Expérience</span><span id="numberExpGue">0</span><span>/10</span>
+                <button class="minus" id="minusExpGue">-</button>
+                <button class="plus" id="plusExpGue">+</button>
+              </div>
+              <div id="mainDiv">
+                <span>Force</span><span id="numberForGue">0</span><span>/10</span>
+                <button class="minus" id="minusForGue">-</button>
+                <button class="plus" id="plusForGue">+</button>
+              </div>
+              <div id="mainDiv">
+                <span>Attaque</span><span id="numberAttGue">0</span><span>/10</span>
+                <button class="minus" id="minusAttGue">-</button>
+                <button class="plus" id="plusAttGue">+</button>
+              </div>
+              <div id="mainDiv">
+                <span>Défence</span><span id="numberDefGue">0</span><span>/10</span>
+                <button class="minus" id="minusDefGue">-</button>
+                <button class="plus" id="plusDefGue">+</button>
+              </div>
+            </div>
+          </div>
+
+        <div class="card">      <!-- carte mage -->
+          <div class="cardTop">
+            <div class="imgM">
+              <img class="imgHero" src="mage.png"/>
+            </div>
+            <h1>Mage</h1>
+            <h3>Boule de feu et Soin</h3>
+            <p>Niv. <span id="nivM">1</span></p>
+            <div class="live">
+              <img class="heart" src="pixel-heart.png"/>
+              <select name="lives" id="live-select">
+                <option value="">10</option>
+                <option value="9">9</option>
+                <option value="8">8</option>
+                <option value="7">7</option>
+                <option value="6">6</option>
+                <option value="5">5</option>
+                <option value="4">4</option>
+                <option value="3">3</option>
+                <option value="2">2</option>
+                <option value="1">1</option>
+                <option value="0">0</option>
+              </select>
+            </div>
+          </div>
+          <div class="progress">
+              <div class="progress-barM"></div>
+          </div>
+          <div class="cardBottom">
+            <div id="mainDiv">
+              <span>Expérience</span><span id="numberExpMag">0</span><span>/10</span>
+              <button class="minus" id="minusExpMag">-</button>
+              <button class="plus" id="plusExpMag">+</button>
+            </div>
+            <div id="mainDiv">
+              <span>Force</span><span id="numberForMag">0</span><span>/10</span>
+              <button class="minus" id="minusForMag">-</button>
+              <button class="plus" id="plusForMag">+</button>
+            </div>
+            <div id="mainDiv">
+              <span>Attaque</span><span id="numberAttMag">0</span><span>/10</span>
+              <button class="minus" id="minusAttMag">-</button>
+              <button class="plus" id="plusAttMag">+</button>
+            </div>
+            <div id="mainDiv">
+              <span>Défence</span><span id="numberDefMag">0</span><span>/10</span>
+              <button class="minus" id="minusDefMag">-</button>
+              <button class="plus" id="plusDefMag">+</button>
+            </div>
+          </div>
+      </div>
+        <div class="card">      <!-- carte archer -->
+          <div class="cardTop">
+            <div class="imgA">
+              <img class="imgHero" src="archer.png"/>
+            </div>
+            <h1>Archer</h1>
+            <h3>Arc et Dagues</h3>
+            <p>Niv. <span id="nivA">1</span></p>
+            <div class="live">
+              <img class="heart" src="pixel-heart.png"/>
+              <select name="lives" id="live-select">
+                <option value="">10</option>
+                <option value="9">9</option>
+                <option value="8">8</option>
+                <option value="7">7</option>
+                <option value="6">6</option>
+                <option value="5">5</option>
+                <option value="4">4</option>
+                <option value="3">3</option>
+                <option value="2">2</option>
+                <option value="1">1</option>
+                <option value="0">0</option>
+              </select>
+            </div>
+          </div>
+          <div class="progress">
+              <div class="progress-barA"></div>
+          </div>
+          <div class="cardBottom">
+            <div id="mainDiv">
+              <span>Expérience</span><span id="numberExpArc">0</span><span>/10</span>
+              <button class="minus" id="minusExpArc">-</button>
+              <button class="plus" id="plusExpArc">+</button>
+            </div>
+            <div id="mainDiv">
+              <span>Force</span><span id="numberForArc">0</span><span>/10</span>
+              <button class="minus" id="minusForArc">-</button>
+              <button class="plus" id="plusForArc">+</button>
+            </div>
+            <div id="mainDiv">
+              <span>Attaque</span><span id="numberAttArc">0</span><span>/10</span>
+              <button class="minus" id="minusAttArc">-</button>
+              <button class="plus" id="plusAttArc">+</button>
+            </div>
+            <div id="mainDiv">
+              <span>Défence</span><span id="numberDefArc">0</span><span>/10</span>
+              <button class="minus" id="minusDefArc">-</button>
+              <button class="plus" id="plusDefArc">+</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">      <!-- carte druide -->
+          <div class="cardTop">
+            <div class="imgD">
+              <img class="imgHero" src="druide.png"/>
+            </div>
+            <h1>Druide</h1>
+            <h3>Bâton et Invocation</h3>
+            <p>Niv. <span id="nivD">1</span></p>
+            <div class="live">
+              <img class="heart" src="pixel-heart.png"/>
+              <select name="lives" id="live-select">
+                <option value="">10</option>
+                <option value="9">9</option>
+                <option value="8">8</option>
+                <option value="7">7</option>
+                <option value="6">6</option>
+                <option value="5">5</option>
+                <option value="4">4</option>
+                <option value="3">3</option>
+                <option value="2">2</option>
+                <option value="1">1</option>
+                <option value="0">0</option>
+              </select>
+            </div>
+          </div>
+          <div class="progress">
+              <div class="progress-barD"></div>
+          </div>
+          <div class="cardBottom">
+            <div id="mainDiv">
+              <span>Expérience</span><span id="numberExpDru">0</span><span>/10</span>
+              <button class="minus" id="minusExpDru">-</button>
+              <button class="plus" id="plusExpDru">+</button>
+            </div>
+            <div id="mainDiv">
+              <span>Force</span><span id="numberForDru">0</span><span>/10</span>
+              <button class="minus" id="minusForDru">-</button>
+              <button class="plus" id="plusForDru">+</button>
+            </div>
+            <div id="mainDiv">
+              <span>Attaque</span><span id="numberAttDru">0</span><span>/10</span>
+              <button class="minus" id="minusAttDru">-</button>
+              <button class="plus" id="plusAttDru">+</button>
+            </div>
+            <div id="mainDiv">
+              <span>Défence</span><span id="numberDefDru">0</span><span>/10</span>
+              <button class="minus" id="minusDefDru">-</button>
+              <button class="plus" id="plusDefDru">+</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+<footer>
+    <p class="copyright">
+      © 2022 All rights reserved. Material template by iiGames.
+    </p>
+</footer>
+
+<script src="app.js"></script>
+    
+</body>
+</html>

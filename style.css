@@ -1,0 +1,172 @@
+body {
+    font-family: tahoma;
+    background-color: black;
+}
+#page {
+    display: grid;
+    width: auto;
+    height: auto;
+    margin-top: 4vw;
+    grid-template-columns: repeat(auto-fill, 300px);
+    justify-content: center;
+    grid-gap: 40px;
+}
+.card {
+    color: white;
+    width: 300px;
+    height: 580px;
+    background-color: #dedede;
+    border-radius: 14px;
+    border: solid black 4px;
+    background-image: url('Rectangle3.png');
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.cardTop {
+    text-align: center;
+}
+.imgG , .imgM , .imgA , .imgD {
+    width: 180px;
+    height: 180px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -40px;
+    border-radius: 10px;
+}
+.imgG {
+    background-color: #66a8ca;
+}
+.imgM {
+    background-color: #c266d0;
+}
+.imgA {
+    background-color: #3cbd60;
+}
+.imgD {
+    background-color: #c7ab2f;
+}
+.progress {
+    margin: 0 auto;
+    width: 220px;
+    padding: 4px;
+    background: rgba(0, 0, 0, 0.50);
+    border-radius: 6px;
+    box-shadow: 0 1px rgba(255, 255, 255, 0.08);
+
+}
+.progress-barG {
+    height: 16px;
+    border-radius: 4px;
+    background: greenyellow;
+    transition: 0.3s linear;
+    width: 100%;
+    background-color: greenyellow;
+    transform-origin: left;
+    transform: scaleX(0);
+}
+.progress-barM {
+    height: 16px;
+    border-radius: 4px;
+    background: greenyellow;
+    transition: 0.3s linear;
+    width: 100%;
+    background-color: greenyellow;
+    transform-origin: left;
+    transform: scaleX(0);
+}
+.progress-barA {
+    height: 16px;
+    border-radius: 4px;
+    background: greenyellow;
+    transition: 0.3s linear;
+    width: 100%;
+    background-color: greenyellow;
+    transform-origin: left;
+    transform: scaleX(0);
+}
+.progress-barD {
+    height: 16px;
+    border-radius: 4px;
+    background: greenyellow;
+    transition: 0.3s linear;
+    width: 100%;
+    background-color: greenyellow;
+    transform-origin: left;
+    transform: scaleX(0);
+}
+.minus , .plus{
+    height:30px;
+    width:30px;
+    border:1px black solid;
+    border-radius:4px;
+    font-size: 20px;
+}
+.minus:hover{
+   cursor:pointer;
+}
+.plus:hover{
+   cursor:pointer;
+}
+#numberExpGue, #numberExpMag, #numberExpArc, #numberExpDru  {
+    margin-left:22px;
+    margin-right:5px;
+    font-size: 18px;
+}
+#numberForGue, #numberForMag, #numberForArc, #numberForDru {
+    margin-left:70px;
+    margin-right:5px;
+    font-size: 18px;
+}
+#numberAttGue, #numberAttMag, #numberAttArc, #numberAttDru {
+    margin-left:50px;
+    margin-right:5px;
+    font-size: 18px;
+}
+#numberDefGue, #numberDefMag, #numberDefArc, #numberDefDru {
+    margin-left:48px;
+    margin-right:5px;
+    font-size: 18px;
+}
+#mainDiv {
+    margin: 16px 10px 0px 32px;
+    font-size: 18px;
+}
+#minusExpGue, #minusExpMag, #minusExpArc, #minusExpDru {
+    margin-left:12px;
+}
+#minusForGue, #minusForMag, #minusForArc, #minusForDru {
+    margin-left:8px;
+}
+#minusAttGue, #minusAttMag, #minusAttArc, #minusAttDru {
+    margin-left:10px;
+}
+#minusDefGue, #minusDefMag, #minusDefArc, #minusDefDru {
+    margin-left:8px;
+}
+.heart{
+    width: 12%;
+    height: 12%;
+}
+#live-select {
+    width: 50px;
+    height: 30px;
+    margin-top: 3px;
+    border-radius: 5px;
+}
+.live {
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}
+p{
+    margin: 10px;
+}
+.imgHero {
+    width: 100%;
+    height: 100%;
+}
+footer {
+    width: auto;
+    color: white;
+    text-align: center;
+}
